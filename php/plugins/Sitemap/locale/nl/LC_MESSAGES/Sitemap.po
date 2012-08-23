@@ -1,0 +1,78 @@
+# Translation of StatusNet - Sitemap to Dutch (Nederlands)
+# Exported from translatewiki.net
+#
+# Author: Siebrand
+# --
+# This file is distributed under the same license as the StatusNet package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: StatusNet - Sitemap\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-30 11:07+0000\n"
+"PO-Revision-Date: 2012-06-30 11:10:02+0000\n"
+"Language-Team: Dutch <https://translatewiki.net/wiki/Portal:nl>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-POT-Import-Date: 2011-06-05 21:51:35+0000\n"
+"X-Generator: MediaWiki 1.20alpha (233fc08); Translate 2012-06-21\n"
+"X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
+"X-Language-Code: nl\n"
+"X-Message-Group: #out-statusnet-plugin-sitemap\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. TRANS: Title for sitemap.
+msgid "Sitemap"
+msgstr "Sitemap"
+
+#. TRANS: Instructions for sitemap.
+msgid "Sitemap settings for this StatusNet site"
+msgstr "Sitemapinstellingen voor deze StatusNetwebsite"
+
+#. TRANS: Field label.
+msgid "Google key"
+msgstr "Googlesleutel"
+
+#. TRANS: Title for field label.
+msgid "Google Webmaster Tools verification key."
+msgstr "Verificatiesleutel voor Google Webmaster Tools."
+
+#. TRANS: Field label.
+msgid "Yahoo key"
+msgstr "Yahoosleutel"
+
+#. TRANS: Title for field label.
+msgid "Yahoo! Site Explorer verification key."
+msgstr "Verificatiesleutel voor Yahoo! Site Explorer."
+
+#. TRANS: Field label.
+msgid "Bing key"
+msgstr "Bingsleutel"
+
+#. TRANS: Title for field label.
+msgid "Bing Webmaster Tools verification key."
+msgstr "Verificatiesleutel voor Bing Webmaster Tools."
+
+#. TRANS: Submit button text to save sitemap settings.
+msgctxt "BUTTON"
+msgid "Save"
+msgstr "Opslaan"
+
+#. TRANS: Submit button title to save sitemap settings.
+msgid "Save sitemap settings."
+msgstr "Instellingen voor sitemap opslaan."
+
+#. TRANS: Menu item title/tooltip
+msgid "Sitemap configuration"
+msgstr "Instellingen voor sitemap"
+
+#. TRANS: Menu item for site administration
+msgctxt "MENU"
+msgid "Sitemap"
+msgstr "Sitemap"
+
+#. TRANS: Plugin description.
+msgid "This plugin allows creation of sitemaps for Bing, Yahoo! and Google."
+msgstr ""
+"Deze plugin maakt het mogelijk sitemaps aan te maken voor Bing, Yahoo! en "
+"Google."

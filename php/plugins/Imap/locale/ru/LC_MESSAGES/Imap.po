@@ -1,0 +1,62 @@
+# Translation of StatusNet - Imap to Russian (русский)
+# Exported from translatewiki.net
+#
+# Author: Eleferen
+# Author: Сrower
+# --
+# This file is distributed under the same license as the StatusNet package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: StatusNet - Imap\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-30 11:07+0000\n"
+"PO-Revision-Date: 2012-06-30 11:08:50+0000\n"
+"Language-Team: Russian <https://translatewiki.net/wiki/Portal:ru>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-POT-Import-Date: 2011-06-05 21:50:20+0000\n"
+"X-Generator: MediaWiki 1.20alpha (233fc08); Translate 2012-06-21\n"
+"X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
+"X-Language-Code: ru\n"
+"X-Message-Group: #out-statusnet-plugin-imap\n"
+"Plural-Forms: nplurals=3; plural=(n%10 == 1 && n%100 != 11) ? 0 : ( (n%10 >= "
+"2 && n%10 <= 4 && (n%100 < 10 || n%100 >= 20)) ? 1 : 2 );\n"
+
+#. TRANS: E-mail subject in case of an error.
+msgid "Error"
+msgstr "Ошибка"
+
+#. TRANS: Exception thrown when the ImapManager is used incorrectly in the code.
+#, fuzzy
+msgid ""
+"ImapManager should be created using its constructor, not using the static "
+"\"get()\" method."
+msgstr ""
+"ImapManager должен быть создан с помощью конструктора, а не получен "
+"статическим методом."
+
+#. TRANS: Exception thrown when configuration of the IMAP plugin is incorrect.
+msgid "A mailbox must be specified."
+msgstr "Должен быть указан почтовый ящик."
+
+#. TRANS: Exception thrown when configuration of the IMAP plugin is incorrect.
+msgid "A user must be specified."
+msgstr "Должен быть указан пользователь."
+
+#. TRANS: Exception thrown when configuration of the IMAP plugin is incorrect.
+msgid "A password must be specified."
+msgstr "Должен быть указан пароль."
+
+#. TRANS: Exception thrown when configuration of the IMAP plugin is incorrect.
+#. TRANS: poll_frequency is a setting that should not be translated.
+msgid "A poll_frequency must be specified."
+msgstr "Периодичность проверки должна быть задана в poll_frequency."
+
+#. TRANS: Plugin description.
+msgid ""
+"The IMAP plugin allows for StatusNet to check a POP or IMAP mailbox for "
+"incoming mail containing user posts."
+msgstr ""
+"Плагин IMAP позволяет StatusNet проверять почтовый ящик по протоколу POP или "
+"IMAP на предмет наличия во входящей почте сообщений от пользователей."

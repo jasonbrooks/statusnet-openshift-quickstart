@@ -1,0 +1,33 @@
+# Translation of StatusNet - LilUrl to Simplified Chinese (‪中文（简体）‬)
+# Exported from translatewiki.net
+#
+# Author: ZhengYiFeng
+# --
+# This file is distributed under the same license as the StatusNet package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: StatusNet - LilUrl\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-30 11:07+0000\n"
+"PO-Revision-Date: 2012-06-30 11:09:01+0000\n"
+"Language-Team: Simplified Chinese <https://translatewiki.net/wiki/Portal:zh-"
+"hans>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-POT-Import-Date: 2011-06-05 21:50:26+0000\n"
+"X-Generator: MediaWiki 1.20alpha (233fc08); Translate 2012-06-21\n"
+"X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
+"X-Language-Code: zh-hans\n"
+"X-Message-Group: #out-statusnet-plugin-lilurl\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. TRANS: Exception thrown when URL shortening plugin was configured incorrectly.
+msgid "A serviceUrl must be specified."
+msgstr "必须设置一个服务的地址 Url。"
+
+#. TRANS: Plugin description.
+#. TRANS: %1$s is the service URL.
+#, php-format
+msgid "Uses <a href=\"http://%1$s/\">%1$s</a> URL-shortener service."
+msgstr "使用 <a href=\"http://%1$s/\">%1$s</a> 短链接服务"

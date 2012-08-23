@@ -1,0 +1,42 @@
+# Translation of StatusNet - LinkPreview to German (Deutsch)
+# Exported from translatewiki.net
+#
+# Author: Fujnky
+# Author: Giftpflanze
+# Author: MF-Warburg
+# --
+# This file is distributed under the same license as the StatusNet package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: StatusNet - LinkPreview\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-30 11:07+0000\n"
+"PO-Revision-Date: 2012-06-30 11:09:03+0000\n"
+"Language-Team: German <https://translatewiki.net/wiki/Portal:de>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-POT-Import-Date: 2011-06-05 21:50:28+0000\n"
+"X-Generator: MediaWiki 1.20alpha (233fc08); Translate 2012-06-21\n"
+"X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
+"X-Language-Code: de\n"
+"X-Message-Group: #out-statusnet-plugin-linkpreview\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. TRANS: Plugin description.
+msgid "UI extension for previewing thumbnails from links."
+msgstr ""
+"Benutzeroberflächenerweiterung, die es erlaubt, Vorschauen für Links "
+"anzuzeigen."
+
+#. TRANS: Client error displayed when the session token does not match or is not given.
+msgid "There was a problem with your session token. Try again, please."
+msgstr "Es gab ein Problem mit deinem Sitzungstoken. Bitte versuche es erneut."
+
+#. TRANS: Client exception thrown when requesting a different format than JSON.
+msgid "Invalid format; only JSON supported."
+msgstr "Ungültiges Format; nur JSON wird unterstützt."
+
+#. TRANS: Client exception thrown when not providing a valid URL.
+msgid "Invalid URL."
+msgstr "Ungültige URL."

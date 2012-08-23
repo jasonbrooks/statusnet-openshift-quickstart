@@ -1,0 +1,28 @@
+# Translation of StatusNet - Comet to Indonesian (Bahasa Indonesia)
+# Exported from translatewiki.net
+#
+# Author: Farras
+# --
+# This file is distributed under the same license as the StatusNet package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: StatusNet - Comet\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-03-31 21:06+0000\n"
+"PO-Revision-Date: 2011-03-31 21:09:05+0000\n"
+"Language-Team: Indonesian <http://translatewiki.net/wiki/Portal:id>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-POT-Import-Date: 2011-03-24 15:24:57+0000\n"
+"X-Generator: MediaWiki 1.18alpha (r85082); Translate extension (2011-03-11)\n"
+"X-Translation-Project: translatewiki.net at http://translatewiki.net\n"
+"X-Language-Code: id\n"
+"X-Message-Group: #out-statusnet-plugin-comet\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. TRANS: Plugin description message. Bayeux is a protocol for transporting asynchronous messages
+#. TRANS: and Comet is a web application model.
+#, fuzzy
+msgid "Plugin to make updates using Comet and Bayeux."
+msgstr "Pengaya untuk membuat pemutakhiran langsung menggunakan Comet/Bayeux."

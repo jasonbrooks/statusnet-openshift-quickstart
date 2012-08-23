@@ -1,0 +1,357 @@
+#wrap {
+    margin: 0;
+    padding: 0;
+    min-width:0;
+    max-width:100%;
+    width: auto;
+    border: none;
+}
+
+#header {
+    width: 100%;
+}
+
+address {
+    margin: 1px 0 0;
+    height: 24px;
+}
+
+address img {
+    float: left;
+    background: #fff;
+    padding: 2px 2px 2px 6px;
+}
+
+address img + .fn {
+    display:block;
+    margin-top: 8px;
+    clear: left;
+    float: left;
+    color: #000;
+    margin-left: 6px;
+}
+
+#site_nav_global_primary {
+    width: 100%;
+    padding: 2px 0;
+    height: auto;
+    left:0;
+}
+
+#site_nav_global_primary li {
+    margin-right: 4px;
+}
+
+#site_nav_global_primary li:last-child {
+    margin-right: 0px;
+}
+
+#site_nav_global_primary a {
+    padding: 2px 4px;
+}
+
+#core {
+    width: 100%;
+    border-left: none;
+    border-right: none;
+}
+
+#aside_primary_wrapper {
+    background: none;
+}    
+
+#content_wrapper {  
+    right: 0px;
+    border: none;
+}  
+
+#site_nav_local_views_wrapper {  
+    right: 0px;
+    border: none;
+}  
+
+#navtoggle {
+    float: right;
+    padding: 2px 6px;
+    text-decoration: none;
+}
+
+#site_nav_local_views {
+    margin-bottom: 0px;
+    padding: 10px 0px 10px 6px;
+    left: 0px;
+    width: 100%;
+    display: none;
+}
+
+#site_nav_local_views h3 {
+    font-size: 1em;
+    margin-bottom: 0px;
+}
+
+#site_nav_local_views li {
+    margin: 0 6px 0 0;
+    clear: left;
+}
+
+#site_nav_local_views li li {
+    float: left;
+    clear: none;
+    margin: 0 10px 6px 0;
+}
+
+#login #site_nav_local_views, #register #site_nav_local_views, #openidlogin #site_nav_local_views {
+    display: block;
+    margin-top: 25px;
+}
+
+#login #navtoggle, #register #navtoggle, #openidlogin #navtoggle {
+    display: none;
+}
+
+#login #site_nav_local_views li, #register #site_nav_local_views li, #openidlogin #site_nav_local_views li {
+    float: left;
+    clear: none;
+    margin: 0 10px 6px 0;
+}
+
+#content {
+    width: 96%;
+    padding: 10px 2%;
+    min-height: auto;
+    left: 0px;
+}
+
+#content h1 {
+    clear: left;
+}
+
+#footer {
+    width: auto;
+    padding: 10px 4px 4px 4px;
+}
+
+.input_forms { 
+    width: 102%;
+    left: -2%;
+    padding-left: 2%;
+}
+
+#input_form_nav li a {
+    margin-right: 6px;
+}
+
+.input_form {
+    clear: left;
+    width: 100%;
+    padding-bottom: 0px;
+}
+
+#input_form_status, #input_form_direct {
+    padding-bottom: 40px;
+}
+
+.form_notice_placeholder .placeholder {
+    width: 290px;
+    margin-bottom: 20px;
+}
+
+.form_notice {
+    float: left;
+    width: 300px;
+    padding: 4px 0px;
+}
+
+#form_notice-direct.form_notice {
+    padding-top: 0px;
+}
+
+.form_notice textarea, #form_notice-direct.form_notice textarea {
+    width: 292px;
+    height: 36px;
+    padding: 4px 4px 16px 4px;
+    font-size: 1em;
+}
+
+.form_notice .count {
+    position: absolute;
+    top: 46px;
+    left: 278px;
+}
+
+#form_notice-direct.form_notice .count {
+    top: 76px;
+    left: 278px;
+}
+
+.form_notice .error,
+.form_notice .success,
+.form_notice .notice-status {
+    width: 285px; 
+}
+
+
+/*input type=file no good in
+iPhone/iPod Touch, Android, Opera Mini Simulator
+*/
+
+.form_notice .notice_data-attach, .form_notice .notice_data-geo_wrap label, .form_notice .notice_data-geo_wrap input {
+    display:none;
+}
+
+.checkbox-wrapper {
+    margin-left: 0px;
+    clear: left;
+    float: left;
+    width: 200px;
+    z-index: 2;
+}
+
+.form_notice .checkbox-wrapper {
+    margin-left: 0px;
+}
+
+.checkbox-wrapper label.checkbox {
+    display: none !important;
+}
+
+.checkbox-wrapper #notice_private {
+    display: inline;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.form_notice .checkbox-wrapper #notice_private {
+    margin-left: 0px;
+}
+
+.checkbox-wrapper:before {
+    content: "Send privately?";
+}
+
+.input_form .form_settings fieldset fieldset {
+    width: 300px;
+}
+
+.input_form .form_settings label {
+    display: inline;
+}
+
+label[for=blog-entry-content] {
+    display: none !important;
+}
+
+.input_form .form_settings li input {
+    width: 292px;
+}
+
+.input_form .form_settings li textarea {
+    width: 292px;
+}
+
+.bookmarkform-thumbnail {
+    display: none;
+}
+
+.input_form .form_settings .submit {
+    margin: 10px 0;
+    clear: left;
+    float: left;
+}
+
+.form_notice input.submit {
+    margin-top: -45px;
+    width: 80px;
+}
+
+#form_notice-direct.form_notice #notice_action-submit {
+    top: 148px;
+}
+
+.threaded-replies {
+    width: 80%;
+}
+
+#content .notice .threaded-replies .notice {
+    width: 95%;
+}
+
+.threaded-replies .placeholder {
+    margin: 10px;
+    width: 92%;
+}
+
+.threaded-replies .form_notice {
+    margin-bottom: 10px;
+}
+
+.threaded-replies .form_notice textarea {
+    width: 220px;
+}
+
+.threaded-replies .form_notice .count {
+    left: 215px;
+    top: 55px;
+}
+
+.threaded-replies .form_notice #notice_action-submit {
+    position: relative;
+    top: 0;
+    bottom: 0px;
+    left: 0;
+    margin-top: 10px;
+}
+
+.threaded-replies .form_notice .error,
+.threaded-replies .form_notice .success,
+.threaded-replies .form_notice .notice-status {
+    width: 210px; 
+}
+
+.form_settings fieldset {
+    margin-bottom: 7px;
+}
+
+.form_settings label {
+    width: auto;
+    display: block;
+    text-align: left;
+}
+
+.form_settings .form_data li {
+    margin-bottom: 10px;
+}
+
+.form_settings .form_data textarea,
+.form_settings .form_data select, 
+.form_settings .form_data input {
+    margin-left: 0;
+}
+
+.form_settings .form_data textarea {
+    width: 98%;
+}
+
+.form_settings .form_data label {
+    float: none;
+}
+
+.form_settings .form_data p.form_guide {
+    margin-left: 0;
+}
+
+.form_settings input.checkbox, .form_settings input.radio {
+    left: 0px;
+}
+
+.form_settings label.checkbox, .form_settings label.radio {
+    left: -10px;
+}
+
+.notice .addressees:before {
+    content: '\003E';
+}
+
+.user_in .notice div.entry-content {
+  max-width: 150px;
+}

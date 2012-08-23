@@ -1,0 +1,42 @@
+# Translation of StatusNet - Minify to French (français)
+# Exported from translatewiki.net
+#
+# Author: Verdy p
+# --
+# This file is distributed under the same license as the StatusNet package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: StatusNet - Minify\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-30 11:07+0000\n"
+"PO-Revision-Date: 2012-06-30 11:09:12+0000\n"
+"Language-Team: French <https://translatewiki.net/wiki/Portal:fr>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-POT-Import-Date: 2011-06-05 21:51:03+0000\n"
+"X-Generator: MediaWiki 1.20alpha (233fc08); Translate 2012-06-21\n"
+"X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
+"X-Language-Code: fr\n"
+"X-Message-Group: #out-statusnet-plugin-minify\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. TRANS: Plugin description.
+msgid ""
+"The Minify plugin minifies StatusNet's CSS and JavaScript, removing "
+"whitespace and comments."
+msgstr ""
+"Le greffon Minify minimise vos CSS et Javascript, en supprimant les espaces "
+"et les commentaires."
+
+#. TRANS: Client error displayed when not providing a valid path in parameter "f".
+msgid "The parameter \"f\" is not a valid path."
+msgstr "Le paramètre « f » ne contient pas un chemin valide."
+
+#. TRANS: Client error displayed when not providing parameter "f".
+msgid "The parameter \"f\" is required but missing."
+msgstr "Le paramètre « f » est nécessaire mais absent."
+
+#. TRANS: Client error displayed when trying to minify an unsupported file type.
+msgid "File type not supported."
+msgstr "Type de fichier non pris en charge."

@@ -1,0 +1,15 @@
+Autocomplete allows users to autocomplete screen names in @ replies and
+! group references.
+
+When an "@" or "!" is typed into the notice text area, an autocomplete box
+is displayed populated with the user's friends' screen names or group
+memberships.
+
+Completion suggestions can be selected via the mouse or arrow keys, and the
+suggestion can be inserted either by clicking or hitting tab. Hitting enter
+will also select the suggestion, but will submit your message too!
+
+Installation
+============
+Add "addPlugin('Autocomplete');" to the bottom of your config.php
+That's it!

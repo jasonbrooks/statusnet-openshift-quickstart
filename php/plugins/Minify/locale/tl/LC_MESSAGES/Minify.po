@@ -1,0 +1,42 @@
+# Translation of StatusNet - Minify to Tagalog (Tagalog)
+# Exported from translatewiki.net
+#
+# Author: AnakngAraw
+# --
+# This file is distributed under the same license as the StatusNet package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: StatusNet - Minify\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-30 11:07+0000\n"
+"PO-Revision-Date: 2012-06-30 11:09:13+0000\n"
+"Language-Team: Tagalog <https://translatewiki.net/wiki/Portal:tl>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-POT-Import-Date: 2011-06-05 21:51:03+0000\n"
+"X-Generator: MediaWiki 1.20alpha (233fc08); Translate 2012-06-21\n"
+"X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
+"X-Language-Code: tl\n"
+"X-Message-Group: #out-statusnet-plugin-minify\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. TRANS: Plugin description.
+msgid ""
+"The Minify plugin minifies StatusNet's CSS and JavaScript, removing "
+"whitespace and comments."
+msgstr ""
+"Ang pamasak na Minify ay nagpapaliit sa CSS at JavaScript ng StatusNet, na "
+"nagtatanggal ng puting puwang at mga puna."
+
+#. TRANS: Client error displayed when not providing a valid path in parameter "f".
+msgid "The parameter \"f\" is not a valid path."
+msgstr "Ang parametrong \"f\" ay hindi isang tanggap na landas."
+
+#. TRANS: Client error displayed when not providing parameter "f".
+msgid "The parameter \"f\" is required but missing."
+msgstr "Ang parametrong \"f\" ay kailangan ngunit nawawala."
+
+#. TRANS: Client error displayed when trying to minify an unsupported file type.
+msgid "File type not supported."
+msgstr "Hindi tinatangkilik ang uri ng talaksan."

@@ -1,0 +1,303 @@
+# Translation of StatusNet - QnA to Tagalog (Tagalog)
+# Exported from translatewiki.net
+#
+# Author: AnakngAraw
+# --
+# This file is distributed under the same license as the StatusNet package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: StatusNet - QnA\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-30 11:07+0000\n"
+"PO-Revision-Date: 2012-06-30 11:09:45+0000\n"
+"Language-Team: Tagalog <https://translatewiki.net/wiki/Portal:tl>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-POT-Import-Date: 2012-01-02 10:10:59+0000\n"
+"X-Generator: MediaWiki 1.20alpha (233fc08); Translate 2012-06-21\n"
+"X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
+"X-Language-Code: tl\n"
+"X-Message-Group: #out-statusnet-plugin-qna\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. TRANS: Title for Question page.
+msgid "New question"
+msgstr "Bagong tanong"
+
+#. TRANS: Client exception thrown trying to create a Question while not logged in.
+msgid "You must be logged in to post a question."
+msgstr "Dapat na nakalagda ka upang makapagpaskil ng isang tanong."
+
+#. TRANS: Client exception thrown trying to create a question without a title.
+msgid "Question must have a title."
+msgstr "Dapat na may isang pamagat ang katanungan."
+
+#. TRANS: Page title after sending a notice.
+msgid "Question posted"
+msgstr "Naipaskil ang tanong"
+
+#. TRANS: Client exception thrown when requesting a non-existing answer.
+#. TRANS: Did we used to have it, and it got deleted?
+msgid "No such answer."
+msgstr "Walang ganyang sagot."
+
+#. TRANS: Client exception thrown when requesting an answer that has no connected question.
+msgid "No question for this answer."
+msgstr "Walang katanungan para sa kasagutang ito."
+
+#. TRANS: Client exception thrown when requesting answer data for a non-existing user.
+#. TRANS: Client exception thrown trying to view a question of a non-existing user.
+msgid "No such user."
+msgstr "Walang ganyang tagagamit."
+
+#. TRANS: Client exception thrown when requesting answer data for a user without a profile.
+#. TRANS: Server exception thrown trying to view a question for a user for which the profile could not be loaded.
+msgid "User without a profile."
+msgstr "Tagagamit na walang balangkas."
+
+#. TRANS: Page title.
+#. TRANS: %1$s is the user who answered a question, %2$s is the question.
+#, php-format
+msgid "%1$s's answer to \"%2$s\""
+msgstr "Ang sagot ni %1$s sa \"%2$s\""
+
+#. TRANS: Page title for revising a question
+msgid "Revise answer"
+msgstr "Baguhin ang sagot"
+
+#. TRANS: Client exception thrown trying to answer a question while not logged in.
+msgid "You must be logged in to answer to a question."
+msgstr "Dapat na nakalagda ka upang makasagot ng isang tanong."
+
+#. TRANS: Client exception thrown trying to respond to a non-existing question.
+msgid "Invalid or missing answer."
+msgstr "Hindi katanggap-tanggap o nawawalang kasagutan."
+
+#. TRANS: Page title after sending an answer.
+#. TRANS: Page title for and answer to a question.
+#. TRANS: Form legend for showing the answer.
+msgid "Answer"
+msgstr "Kasagutan"
+
+#. TRANS: Form title for sending an answer.
+msgctxt "TITLE"
+msgid "Answer"
+msgstr "Sagot"
+
+#. TRANS: Client exception thrown trying to view a non-existing question.
+msgid "No such question."
+msgstr "Walang ganyang tanong."
+
+#. TRANS: Client exception thrown trying to view a non-existing question notice.
+msgid "No such question notice."
+msgstr "Walang ganyang pabatid ng tanong."
+
+#. TRANS: Page title for a question.
+#. TRANS: %1$s is the nickname of the user who asked the question, %2$s is the question.
+#, php-format
+msgid "%1$s's question: %2$s"
+msgstr "Katanungan ni %1$s: %2$s"
+
+#. TRANS: Page title for close a question
+msgid "Close question"
+msgstr "Isara ang katanungan"
+
+#. TRANS: Client exception thrown trying to close a question when not logged in
+msgid "You must be logged in to close a question."
+msgstr "Dapat na nakalagda ka upang makapagsara ng isang tanong."
+
+#. TRANS: Client exception thrown trying to respond to a non-existing question.
+msgid "Invalid or missing question."
+msgstr "Hindi katanggap-tanggap o nawawalang katanungan."
+
+#. TRANS: Exception thrown trying to close another user's question.
+msgid "You did not ask this question."
+msgstr "Hindi mo itinanong ang tanong na ito."
+
+#. TRANS: Page title after sending an answer.
+#. TRANS: Page title after sending in a vote for a question or answer.
+msgid "Answers"
+msgstr "Mga kasagutan"
+
+#. TRANS: Page title after an AJAX error occurs on the post answer page.
+msgid "Ajax Error"
+msgstr "Kamalian ng Ajax"
+
+#. TRANS: Title for form to send answer to a question.
+msgctxt "TITLE"
+msgid "Your answer"
+msgstr "Ang sagot mo"
+
+#. TRANS: Error message displayed when an answer has no content.
+#. TRANS: Error message displayed when answer data is not present.
+msgid "Answer data is missing."
+msgstr "Nawawala ang dato ng kasagutan."
+
+#. TRANS: Plugin description.
+msgid "Question and Answers micro-app."
+msgstr "Mikro-aplikasyon ng Tanong at mga Sagot."
+
+#. TRANS: Application title.
+msgctxt "TITLE"
+msgid "Question"
+msgstr "Tanong"
+
+#. TRANS: Exception thrown when there are too many activity objects.
+msgid "Too many activity objects."
+msgstr "Masyadong maraming mga bagay ng gawain."
+
+#. TRANS: Exception thrown when an incorrect object type is encountered.
+msgid "Wrong type for object."
+msgstr "Maling uri para sa bagay."
+
+#. TRANS: Exception thrown when answering a non-existing question.
+msgid "Answer to unknown question."
+msgstr "Sagot sa hindi nalalamang katanungan."
+
+#. TRANS: Exception thrown when an object type is encountered that cannot be handled.
+msgid "Unknown object type."
+msgstr "Hindi nalalamang uri ng bagay."
+
+#. TRANS: Exception thrown when requesting a non-existing question notice.
+msgid "Unknown question notice."
+msgstr "Hindi nalalamang pabatid ng katanungan."
+
+#. TRANS: Exception thrown when performing an unexpected action on a question.
+#. TRANS: %s is the unpexpected object type.
+#, php-format
+msgid "Unexpected type for QnA plugin: %s."
+msgstr "Hindi inaasahang uri para sa pampasak na QnA: %s."
+
+#. TRANS: Error message displayed when question data is not present.
+msgid "Question data is missing."
+msgstr "Nawawala ang dato ng tanong."
+
+#. TRANS: Placeholder value for a possible answer to a question
+#. TRANS: by the logged in user.
+msgid "Your answer..."
+msgstr "Ang sagot mo..."
+
+#. TRANS: Link description for link to full notice text if it is longer than
+#. TRANS: what will be dispplayed.
+msgid "…"
+msgstr "…"
+
+#. TRANS: Title for link that is an ellipsis in English.
+msgid "more..."
+msgstr "marami pa..."
+
+#. TRANS: Exception thown when getting a question with a non-existing ID.
+#. TRANS: %s is the non-existing question ID.
+#, php-format
+msgid "No question with ID %s"
+msgstr "Walang tanong na may ID na %s."
+
+#. TRANS: Exception thown when getting a profile with a non-existing ID.
+#. TRANS: %s is the non-existing profile ID.
+#. TRANS: Exception trown when getting a profile for a non-existing ID.
+#. TRANS: %s is the provided profile ID.
+#, php-format
+msgid "No profile with ID %s"
+msgstr "Walang balangkas na may ID na %s"
+
+#. TRANS: %s is the number of answer revisions.
+#, php-format
+msgid "%s revision"
+msgid_plural "%s revisions"
+msgstr[0] "%s rebisyon"
+msgstr[1] "%s mga rebisyon"
+
+#. TRANS: Text for a question that was answered.
+#. TRANS: %1$s is the user that answered, %2$s is the question title,
+#. TRANS: %2$s is the answer content.
+#, php-format
+msgid "%1$s answered the question \"%2$s\": %3$s"
+msgstr "Si %1$s ay sumagot sa tanong na \"%2$s\": %3$s"
+
+#. TRANS: Text for a question that was answered.
+#. TRANS: %s is the question title.
+#. TRANS: Rendered version of the notice content answering a question.
+#. TRANS: %s a link to the question with question title as the link content.
+#, php-format
+msgid "answered \"%s\""
+msgstr "sumagot sa \"%s\""
+
+#. TRANS: Number of given answers to a question.
+#. TRANS: %s is the number of given answers.
+#, php-format
+msgid "%s answer"
+msgid_plural "%s answers"
+msgstr[0] "%s sagot"
+msgstr[1] "%s mga sagot"
+
+#. TRANS: Notification that a question cannot be answered anymore because it is closed.
+msgid "This question is closed."
+msgstr "Nakasara na ang katanungang ito."
+
+#. TRANS: Rendered version of the notice content creating a question.
+#. TRANS: %s a link to the question as link description.
+#, php-format
+msgid "Question: %s"
+msgstr "Tanong: %s"
+
+#. TRANS: Button text for submitting a revised answer.
+#. TRANS: Button text for submitting a poll response.
+msgctxt "BUTTON"
+msgid "Submit"
+msgstr "Ipasa"
+
+#. TRANS: Field label.
+msgid "Enter your answer"
+msgstr "Ipasok ang sagot mo"
+
+#. TRANS: Button text for submitting a poll response.
+msgctxt "BUTTON"
+msgid "Answer"
+msgstr "Kasagutan"
+
+#. TRANS: Field label for a new question.
+msgctxt "LABEL"
+msgid "Title"
+msgstr "Pamagat"
+
+#. TRANS: Field title for a new question.
+msgid "The title of your question."
+msgstr "Ang pamagat ng tanong mo."
+
+#. TRANS: Field label for question details.
+msgctxt "LABEL"
+msgid "Description"
+msgstr "Paglalarawan"
+
+#. TRANS: Field title for question details.
+msgid "Your question in detail."
+msgstr "Nakadetalyeng tanong mo."
+
+#. TRANS: Button text for saving a new question.
+msgctxt "BUTTON"
+msgid "Save"
+msgstr "Sagipin"
+
+#. TRANS: Form legend for revising the answer.
+msgctxt "LEGEND"
+msgid "Question"
+msgstr "Tanong"
+
+#. TRANS: Button text for closing a question.
+msgctxt "BUTTON"
+msgid "Close"
+msgstr "Isara"
+
+#. TRANS: Title for button text for closing a question.
+msgid "Close the question to no one can answer it anymore."
+msgstr "Isara ang tanong upang wala nang makakasagot rito."
+
+#. TRANS: Button text for marking an answer as "best".
+msgctxt "BUTTON"
+msgid "Best"
+msgstr "Pinakamahusay"
+
+#. TRANS: Title for button text marking an answer as "best".
+msgid "Mark this answer as the best answer."
+msgstr "Markahan ang sagot na ito bilang pinakamahusay na sagot."

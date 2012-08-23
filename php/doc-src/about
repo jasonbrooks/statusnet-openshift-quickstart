@@ -1,0 +1,16 @@
+<!-- Copyright 2008-2010 StatusNet Inc. and contributors. -->
+<!-- Document licensed under Creative Commons Attribution 3.0 Unported. See -->
+<!-- http://creativecommons.org/licenses/by/3.0/ for details. -->
+
+%%site.name%% is a stream-oriented social network service based on the
+Free Software [StatusNet](http://status.net/) tool.
+
+If you [register](%%action.register%%) for an account, you can post
+small (%%site.textlimit%% chars or less) text notices about yourself,
+where you are, what you're doing, what you're working on or what
+you're thinking about. You can also subscribe to the notices of your
+friends, or other people you're interested in, and follow them
+privately or on the Web.
+
+You can also post event invitations, bookmarks, polls, questions, or
+other kinds of data.

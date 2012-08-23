@@ -1,0 +1,64 @@
+# Translation of StatusNet - Realtime to Macedonian (македонски)
+# Exported from translatewiki.net
+#
+# Author: Bjankuloski06
+# --
+# This file is distributed under the same license as the StatusNet package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: StatusNet - Realtime\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-30 11:07+0000\n"
+"PO-Revision-Date: 2012-06-30 11:09:47+0000\n"
+"Language-Team: Macedonian <https://translatewiki.net/wiki/Portal:mk>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-POT-Import-Date: 2012-01-02 10:10:45+0000\n"
+"X-Generator: MediaWiki 1.20alpha (233fc08); Translate 2012-06-21\n"
+"X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
+"X-Language-Code: mk\n"
+"X-Message-Group: #out-statusnet-plugin-realtime\n"
+"Plural-Forms: nplurals=2; plural=(n == 1 || n%10 == 1) ? 0 : 1;\n"
+
+#. TRANS: Client exception. Do not translate POST.
+msgid "You have to POST it."
+msgstr "Ќе мора да го објавите со POST."
+
+#. TRANS: Client exception thrown when the channel key argument is missing.
+msgid "No channel key argument."
+msgstr "Нема аргумент за клучот на каналот."
+
+#. TRANS: Client exception thrown when referring to a non-existing channel.
+msgid "No such channel."
+msgstr "Нема таков канал."
+
+#. TRANS: Text label for realtime view "play" button, usually replaced by an icon.
+msgctxt "BUTTON"
+msgid "Play"
+msgstr "Пушти"
+
+#. TRANS: Tooltip for realtime view "play" button.
+msgctxt "TOOLTIP"
+msgid "Play"
+msgstr "Пушти"
+
+#. TRANS: Text label for realtime view "pause" button
+msgctxt "BUTTON"
+msgid "Pause"
+msgstr "Паузирај"
+
+#. TRANS: Tooltip for realtime view "pause" button
+msgctxt "TOOLTIP"
+msgid "Pause"
+msgstr "Паузирај"
+
+#. TRANS: Text label for realtime view "popup" button, usually replaced by an icon.
+msgctxt "BUTTON"
+msgid "Pop up"
+msgstr "Прозорче"
+
+#. TRANS: Tooltip for realtime view "popup" button.
+msgctxt "TOOLTIP"
+msgid "Pop up in a window"
+msgstr "Прикажи во прозорче"

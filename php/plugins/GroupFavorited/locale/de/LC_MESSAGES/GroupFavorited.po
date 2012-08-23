@@ -1,0 +1,51 @@
+# Translation of StatusNet - GroupFavorited to German (Deutsch)
+# Exported from translatewiki.net
+#
+# Author: Michael
+# Author: The Evil IP address
+# --
+# This file is distributed under the same license as the StatusNet package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: StatusNet - GroupFavorited\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-30 11:07+0000\n"
+"PO-Revision-Date: 2012-06-30 11:08:46+0000\n"
+"Language-Team: German <https://translatewiki.net/wiki/Portal:de>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-POT-Import-Date: 2011-06-05 21:50:17+0000\n"
+"X-Generator: MediaWiki 1.20alpha (233fc08); Translate 2012-06-21\n"
+"X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
+"X-Language-Code: de\n"
+"X-Message-Group: #out-statusnet-plugin-groupfavorited\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. TRANS: Menu item in the group navigation page.
+msgctxt "MENU"
+msgid "Popular"
+msgstr "Beliebt"
+
+#. TRANS: Tooltip for menu item in the group navigation page.
+#. TRANS: %s is the nickname of the group.
+#, php-format
+msgctxt "TOOLTIP"
+msgid "Popular notices in %s group"
+msgstr "Beliebte Nachrichten in der %s-Gruppe"
+
+#. TRANS: Plugin description.
+msgid "This plugin adds a menu item for popular notices in groups."
+msgstr ""
+"Dieses Plugin fügt einen Menüeintrag mit den beliebtesten Nachrichten einer "
+"Gruppen ein."
+
+#. TRANS: %s is a group name.
+#, php-format
+msgid "Popular posts in %s group"
+msgstr "Beliebte Beiträge in der %s-Gruppe"
+
+#. TRANS: %1$s is a group name, %2$s is a group number.
+#, php-format
+msgid "Popular posts in %1$s group, page %2$d"
+msgstr "Beliebte Beiträge in der %1$s-Gruppe, Seite %2$d"

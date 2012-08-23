@@ -1,0 +1,66 @@
+# Translation of StatusNet - Realtime to Arabic (العربية)
+# Exported from translatewiki.net
+#
+# Author: OsamaK
+# --
+# This file is distributed under the same license as the StatusNet package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: StatusNet - Realtime\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-30 11:07+0000\n"
+"PO-Revision-Date: 2012-06-30 11:09:45+0000\n"
+"Language-Team: Arabic <https://translatewiki.net/wiki/Portal:ar>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-POT-Import-Date: 2012-01-02 10:10:45+0000\n"
+"X-Generator: MediaWiki 1.20alpha (233fc08); Translate 2012-06-21\n"
+"X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
+"X-Language-Code: ar\n"
+"X-Message-Group: #out-statusnet-plugin-realtime\n"
+"Plural-Forms: nplurals=6; plural=(n == 0) ? 0 : ( (n == 1) ? 1 : ( (n == "
+"2) ? 2 : ( (n%100 >= 3 && n%100 <= 10) ? 3 : ( (n%100 >= 11 && n%100 <= "
+"99) ? 4 : 5 ) ) ) );\n"
+
+#. TRANS: Client exception. Do not translate POST.
+msgid "You have to POST it."
+msgstr ""
+
+#. TRANS: Client exception thrown when the channel key argument is missing.
+msgid "No channel key argument."
+msgstr ""
+
+#. TRANS: Client exception thrown when referring to a non-existing channel.
+msgid "No such channel."
+msgstr ""
+
+#. TRANS: Text label for realtime view "play" button, usually replaced by an icon.
+msgctxt "BUTTON"
+msgid "Play"
+msgstr "شغّل"
+
+#. TRANS: Tooltip for realtime view "play" button.
+msgctxt "TOOLTIP"
+msgid "Play"
+msgstr "شغّل"
+
+#. TRANS: Text label for realtime view "pause" button
+msgctxt "BUTTON"
+msgid "Pause"
+msgstr "ألبث"
+
+#. TRANS: Tooltip for realtime view "pause" button
+msgctxt "TOOLTIP"
+msgid "Pause"
+msgstr "ألبث"
+
+#. TRANS: Text label for realtime view "popup" button, usually replaced by an icon.
+msgctxt "BUTTON"
+msgid "Pop up"
+msgstr "منبثق"
+
+#. TRANS: Tooltip for realtime view "popup" button.
+msgctxt "TOOLTIP"
+msgid "Pop up in a window"
+msgstr "منبثق في نافذة"

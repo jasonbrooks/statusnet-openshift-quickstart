@@ -1,0 +1,38 @@
+# Translation of StatusNet - MobileProfile to Chechen (Нохчийн)
+# Exported from translatewiki.net
+#
+# Author: Sasan700
+# --
+# This file is distributed under the same license as the StatusNet package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: StatusNet - MobileProfile\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-30 11:07+0000\n"
+"PO-Revision-Date: 2012-06-30 11:09:13+0000\n"
+"Language-Team: Chechen <https://translatewiki.net/wiki/Portal:ce>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-POT-Import-Date: 2012-01-02 10:11:36+0000\n"
+"X-Generator: MediaWiki 1.20alpha (233fc08); Translate 2012-06-21\n"
+"X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
+"X-Language-Code: ce\n"
+"X-Message-Group: #out-statusnet-plugin-mobileprofile\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. TRANS: Client exception thrown when requesting a not supported media type.
+msgid "This page is not available in a media type you accept."
+msgstr "Агlо схьа ца гойту ишта тайпнара чун, ахьа лелош йолу."
+
+#. TRANS: Link to switch site layout from mobile to desktop mode. Appears at very bottom of page.
+msgid "Switch to desktop site layout."
+msgstr ""
+
+#. TRANS: Link to switch site layout from desktop to mobile mode. Appears at very bottom of page.
+msgid "Switch to mobile site layout."
+msgstr ""
+
+#. TRANS: Plugin description.
+msgid "XHTML MobileProfile output for supporting user agents."
+msgstr "XHTML MobileProfile арайокху иза лелочу декъашхошна аттон."

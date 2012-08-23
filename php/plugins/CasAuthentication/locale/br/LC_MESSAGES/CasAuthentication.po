@@ -1,0 +1,71 @@
+# Translation of StatusNet - CasAuthentication to Breton (brezhoneg)
+# Exported from translatewiki.net
+#
+# Author: Y-M D
+# --
+# This file is distributed under the same license as the StatusNet package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: StatusNet - CasAuthentication\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-30 11:07+0000\n"
+"PO-Revision-Date: 2012-06-30 11:08:00+0000\n"
+"Language-Team: Breton <https://translatewiki.net/wiki/Portal:br>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-POT-Import-Date: 2011-06-05 21:49:52+0000\n"
+"X-Generator: MediaWiki 1.20alpha (233fc08); Translate 2012-06-21\n"
+"X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
+"X-Language-Code: br\n"
+"X-Message-Group: #out-statusnet-plugin-casauthentication\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. TRANS: Menu item. CAS is Central Authentication Service.
+msgid "CAS"
+msgstr "Servij dilesadur kreiz (SDK)"
+
+#. TRANS: Tooltip for menu item. CAS is Central Authentication Service.
+msgid "Login or register with CAS."
+msgstr "Kevreañ pe en em enskrivañ dre ar SDK."
+
+#. TRANS: Invitation to users with a CAS account to log in using the service.
+#. TRANS: "[CAS login]" is a link description. (%%action.caslogin%%) is the URL.
+#. TRANS: These two elements may not be separated.
+#, php-format
+msgid "(Have an account with CAS? Try our [CAS login](%%action.caslogin%%)!)"
+msgstr ""
+"(Hag ur gont diselaet SDK ho peus ? Amprouit hor [c'hevreadur SAC](%%action."
+"caslogin%%) !)"
+
+#. TRANS: Exception thrown when the CAS Authentication plugin has been configured incorrectly.
+msgid "Specifying a server is required."
+msgstr "Ret eo spisaat ur servijer."
+
+#. TRANS: Exception thrown when the CAS Authentication plugin has been configured incorrectly.
+msgid "Specifying a port is required."
+msgstr ""
+
+#. TRANS: Exception thrown when the CAS Authentication plugin has been configured incorrectly.
+msgid "Specifying a path is required."
+msgstr ""
+
+#. TRANS: Plugin description. CAS is Central Authentication Service.
+msgid ""
+"The CAS Authentication plugin allows for StatusNet to handle authentication "
+"through CAS (Central Authentication Service)."
+msgstr ""
+
+#. TRANS: Client error displayed when trying to log in while already logged on.
+msgid "Already logged in."
+msgstr "Kevreet oc'h dija."
+
+#. TRANS: Server error displayed when trying to log in with incorrect username or password.
+msgid "Incorrect username or password."
+msgstr "Anv implijer pe ger-tremen direizh."
+
+#. TRANS: Server error displayed when login fails in CAS authentication plugin.
+msgid "Error setting user. You are probably not authorized."
+msgstr ""
+"Ur fazi 'zo bet e-pad hizivadenn an implijer. Moarvat n'oc'h ket aotreet "
+"evit en ober."

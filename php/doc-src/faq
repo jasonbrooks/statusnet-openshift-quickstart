@@ -1,0 +1,50 @@
+<!-- Copyright 2008-2010 StatusNet Inc. and contributors. -->
+<!-- Document licensed under Creative Commons Attribution 3.0 Unported. See -->
+<!-- http://creativecommons.org/licenses/by/3.0/ for details. -->
+
+These are some *Frequently Asked Questions* about this service, with
+some answers.
+
+What is %%site.name%%?
+----------------------
+
+%%site.name%% is a stream oriented social network service.
+
+You can use it to write short notices about yourself, where you are,
+and what you're doing, and those notices will be sent to all your friends
+and fans.
+
+You can also post event invitations, bookmarks, polls, and questions or
+other kinds of social broadcasts.
+
+How is %%site.name%% different from Twitter?
+--------------------------------------------
+
+Like [Twitter](http://twitter.com/), %%site.name%% is a light service
+with a stream-oriented interface. It uses @-replies, hashtags,
+provides search, and has private messages. It provides an API, and can
+be integrated with SMS systems. You can create lists.
+
+Unlike Twitter, %%site.name%% allows more data than just plain text
+and links to travel across the network. You can install the StatusNet
+software that runs %%site.name%% on your own servers, since it's Free
+and Open Source software. You can make groups, and share privately
+with those groups.
+
+You can make your site available only to people you choose. You can
+customize it with your own themes and plugins, or download plugins
+from the StatusNet site.
+
+How is %%site.name%% different from Yammer, SocialCast, or Salesforce Chatter?
+------------------------------------------------------------------------------
+
+Like some enterprise social software services, StatusNet lets you
+share privately with other people in your company. You can use
+microapps to post richer kinds of data, use public and private groups
+to share with team members, use extended profiles to show more about
+yourself and your company, and review groups and users in a directory.
+
+Unlike those other services, StatusNet is free and open source
+software. You can install it on your own servers. You can customize
+the theme and add plugins.
+

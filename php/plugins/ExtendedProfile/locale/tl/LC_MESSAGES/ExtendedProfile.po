@@ -1,0 +1,234 @@
+# Translation of StatusNet - ExtendedProfile to Tagalog (Tagalog)
+# Exported from translatewiki.net
+#
+# Author: AnakngAraw
+# --
+# This file is distributed under the same license as the StatusNet package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: StatusNet - ExtendedProfile\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-30 11:07+0000\n"
+"PO-Revision-Date: 2012-06-30 11:08:32+0000\n"
+"Language-Team: Tagalog <https://translatewiki.net/wiki/Portal:tl>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-POT-Import-Date: 2011-06-05 21:50:06+0000\n"
+"X-Generator: MediaWiki 1.20alpha (233fc08); Translate 2012-06-21\n"
+"X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
+"X-Language-Code: tl\n"
+"X-Message-Group: #out-statusnet-plugin-extendedprofile\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. TRANS: Title for extended profile settings.
+msgid "Extended profile settings"
+msgstr "Dinugtungang mga katakdaan ng balangkas"
+
+#. TRANS: Usage instructions for profile settings.
+msgid ""
+"You can update your personal profile info here so people know more about you."
+msgstr ""
+"Maisasapanahon mo rito ang kabatiran sa iyong pansariling balangkas upang "
+"makaalam pa ng mas marami ang mga tao tungkol sa iyo."
+
+#. TRANS: Client error displayed when the session token does not match or is not given.
+msgid "There was a problem with your session token. Try again, please."
+msgstr ""
+"May isang suliranin sa iyong sesyon ng kahalip.  Mangyaring subukan uli."
+
+#. TRANS: Message given submitting a form with an unknown action.
+msgid "Unexpected form submission."
+msgstr "Hindi inaasahang pagpapasa ng pormularyo."
+
+#. TRANS: Success message after saving extended profile details.
+msgid "Details saved."
+msgstr "Nasagip na ang mga detalye."
+
+#. TRANS: Exception thrown when no date was entered in a required date field.
+#. TRANS: %s is the field name.
+#, php-format
+msgid "You must supply a date for \"%s\"."
+msgstr "Dapat kang magbigay ng isang petsa para sa \"%s\"."
+
+#. TRANS: Exception thrown on incorrect data input.
+#. TRANS: %1$s is a field name, %2$s is the incorrect input.
+#, php-format
+msgid "Invalid date entered for \"%1$s\": %2$s."
+msgstr "Hindi katanggap-tanggap na ipinasok na petsa para sa \"%1$s\": %2$s."
+
+#. TRANS: Exception thrown when entering an invalid URL.
+#. TRANS: %s is the invalid URL.
+#, php-format
+msgid "Invalid URL: %s."
+msgstr "Hindi katanggap-tanggap na URL: %s."
+
+#. TRANS: Server error displayed when a field could not be saved in the database.
+msgid "Could not save profile details."
+msgstr "Hindi masagip ang mga detalye ng balangkas."
+
+#. TRANS: Validation error in form for profile settings.
+#. TRANS: %s is an invalid tag.
+#, php-format
+msgid "Invalid tag: \"%s\"."
+msgstr "Hindi katanggap-tanggap na tatak: \"%s\"."
+
+#. TRANS: Server error thrown when user profile settings could not be saved.
+msgid "Could not save profile."
+msgstr "Hindi masagip ang balangkas."
+
+#. TRANS: Server error thrown when user profile settings tags could not be saved.
+msgid "Could not save tags."
+msgstr "Hindi masagip ang mga tatak."
+
+#. TRANS: Link title for link on user profile.
+msgid "Edit extended profile settings"
+msgstr "Baguhin ang mga katakdaan ng dinugtungang balangkas."
+
+#. TRANS: Link text for link on user profile.
+msgid "Edit"
+msgstr "Baguhin"
+
+#. TRANS: Plugin description.
+msgid "UI extensions for additional profile fields."
+msgstr "Mga dutong ng UI para sa mga kahanayan ng karagdagang balangkas."
+
+#. TRANS: Link text on user profile page leading to extended profile page.
+msgid "More details..."
+msgstr "Marami pang mga detalye..."
+
+#. TRANS: Title for extended profile entry deletion dialog.
+msgid "Confirmation Required"
+msgstr "Kailangan ang Paniniyak"
+
+#. TRANS: Confirmation text for extended profile entry deletion dialog.
+msgid "Really delete this entry?"
+msgstr "Burahin talaga ang ipinasok na ito?"
+
+#. TRANS: Value between parentheses (phone number, website, or IM address).
+#, php-format
+msgid "(%s)"
+msgstr "(%s)"
+
+#. TRANS: Field label in experience area of extended profile.
+#. TRANS: Field label in experience edit area of extended profile (which company does one work for).
+msgid "Company"
+msgstr "Kumpanya"
+
+#. TRANS: Field label in extended profile (when did one start a position or education).
+msgid "Start"
+msgstr "Magsimula"
+
+#. TRANS: Field label in extended profile (when did one end a position or education).
+msgid "End"
+msgstr "Tapusin"
+
+#. TRANS: Field value in experience area of extended profile (one still holds a position).
+msgid "(Current)"
+msgstr "(Pangkasalukuyan)"
+
+#. TRANS: Checkbox label in experience edit area of extended profile (one still works at a company).
+msgid "Current"
+msgstr "Pangkasalukuyan"
+
+#. TRANS: Field label in education area of extended profile.
+#. TRANS: Field label in education edit area of extended profile.
+#. TRANS: Field label for extended profile properties.
+msgid "Institution"
+msgstr "Institusyon"
+
+#. TRANS: Field label in extended profile for specifying an academic degree.
+msgid "Degree"
+msgstr "Antas"
+
+#. TRANS: Field label in education area of extended profile.
+#. TRANS: Field label in education edit area of extended profile.
+msgid "Description"
+msgstr "Paglalarawan"
+
+#. TRANS: Link description in extended profile page to add another profile element.
+msgid "Add another item"
+msgstr "Magdagdag ng isa pang bagay"
+
+#. TRANS: Field label for undefined field in extended profile.
+#, php-format
+msgid "TYPE: %s"
+msgstr "URI: %s"
+
+#. TRANS: Button text for saving extended profile properties.
+msgctxt "BUTTON"
+msgid "Save"
+msgstr "Sagipin"
+
+#. TRANS: .
+#. TRANS: Button title for saving extended profile properties.
+msgid "Save details"
+msgstr "Sagipin ang mga detalye"
+
+#. TRANS: Field label for extended profile properties.
+msgid "Phone"
+msgstr "Telepono"
+
+#. TRANS: Field label for extended profile properties (Instant Messaging).
+msgid "IM"
+msgstr "Biglaang Mensahe"
+
+#. TRANS: Field label for extended profile properties.
+msgid "Website"
+msgstr "Websayt"
+
+#. TRANS: Field label for extended profile properties.
+msgid "Employer"
+msgstr "Tagapagpahanapbuhay"
+
+#. TRANS: Field label for extended profile properties.
+msgid "Personal"
+msgstr "Pansarili"
+
+#. TRANS: Field label for extended profile properties.
+msgid "Full name"
+msgstr "Buong pangalan"
+
+#. TRANS: Field label for extended profile properties.
+msgid "Title"
+msgstr "Pamagat"
+
+#. TRANS: Field label for extended profile properties.
+msgid "Manager"
+msgstr "Tagapamahala"
+
+#. TRANS: Field label for extended profile properties.
+msgid "Location"
+msgstr "Kinalalagyan"
+
+#. TRANS: Field label for extended profile properties.
+msgid "Bio"
+msgstr "Talambuhay"
+
+#. TRANS: Field label for extended profile properties.
+msgid "Tags"
+msgstr "Mga tatak"
+
+#. TRANS: Field label for extended profile properties.
+msgid "Contact"
+msgstr "Kaugnayan"
+
+#. TRANS: Field label for extended profile properties.
+msgid "Birthday"
+msgstr "Kaarawan"
+
+#. TRANS: Field label for extended profile properties.
+msgid "Spouse's name"
+msgstr "Pangalan ng asawa"
+
+#. TRANS: Field label for extended profile properties.
+msgid "Kids' names"
+msgstr "Pangalan ng mga anak"
+
+#. TRANS: Field label for extended profile properties.
+msgid "Work experience"
+msgstr "Karanasan sa hanapbuhay"
+
+#. TRANS: Field label for extended profile properties.
+msgid "Education"
+msgstr "Pag-aaral"

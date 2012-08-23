@@ -1,0 +1,8 @@
+* To use a theme other than neo, add this to config.php:
+$config['site']['theme'] = 'yourthemename';
+
+* To use/import the base theme, add this to your theme.ini file:
+include=base
+
+* To include an external CSS resource (e.g. for a webfont), add this to the top of your theme.ini file:
+external[]="yourexternalURL"

@@ -1,0 +1,78 @@
+# Translation of StatusNet - Sitemap to Ukrainian (українська)
+# Exported from translatewiki.net
+#
+# Author: Boogie
+# --
+# This file is distributed under the same license as the StatusNet package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: StatusNet - Sitemap\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-30 11:07+0000\n"
+"PO-Revision-Date: 2012-06-30 11:10:03+0000\n"
+"Language-Team: Ukrainian <https://translatewiki.net/wiki/Portal:uk>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-POT-Import-Date: 2011-06-05 21:51:35+0000\n"
+"X-Generator: MediaWiki 1.20alpha (233fc08); Translate 2012-06-21\n"
+"X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
+"X-Language-Code: uk\n"
+"X-Message-Group: #out-statusnet-plugin-sitemap\n"
+"Plural-Forms: nplurals=3; plural=(n%10 == 1 && n%100 != 11) ? 0 : ( (n%10 >= "
+"2 && n%10 <= 4 && (n%100 < 10 || n%100 >= 20)) ? 1 : 2 );\n"
+
+#. TRANS: Title for sitemap.
+msgid "Sitemap"
+msgstr "Карта сайту"
+
+#. TRANS: Instructions for sitemap.
+msgid "Sitemap settings for this StatusNet site"
+msgstr "Налаштування карти сайту на даному сайті StatusNet"
+
+#. TRANS: Field label.
+msgid "Google key"
+msgstr "Ключ Google"
+
+#. TRANS: Title for field label.
+msgid "Google Webmaster Tools verification key."
+msgstr "Ключ підтвердження Google Webmaster Tools"
+
+#. TRANS: Field label.
+msgid "Yahoo key"
+msgstr "Ключ Yahoo"
+
+#. TRANS: Title for field label.
+msgid "Yahoo! Site Explorer verification key."
+msgstr "Ключ підтвердження Yahoo! Site Explorer"
+
+#. TRANS: Field label.
+msgid "Bing key"
+msgstr "Ключ Bing"
+
+#. TRANS: Title for field label.
+msgid "Bing Webmaster Tools verification key."
+msgstr "Ключ підтвердження Bing Webmaster Tools"
+
+#. TRANS: Submit button text to save sitemap settings.
+msgctxt "BUTTON"
+msgid "Save"
+msgstr "Зберегти"
+
+#. TRANS: Submit button title to save sitemap settings.
+msgid "Save sitemap settings."
+msgstr "Зберегти налаштування карти сайту."
+
+#. TRANS: Menu item title/tooltip
+msgid "Sitemap configuration"
+msgstr "Конфігурація карти сайту"
+
+#. TRANS: Menu item for site administration
+msgctxt "MENU"
+msgid "Sitemap"
+msgstr "Карта сайту"
+
+#. TRANS: Plugin description.
+msgid "This plugin allows creation of sitemaps for Bing, Yahoo! and Google."
+msgstr ""
+"Цей додаток дозволяє створювати карти сайту для Bing, Yahoo! та Google."

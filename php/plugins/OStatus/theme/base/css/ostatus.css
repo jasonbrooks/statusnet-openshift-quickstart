@@ -1,0 +1,39 @@
+#form_ostatus_connect.dialogbox .form_data label,
+#form_ostatus_sub.dialogbox .form_data label {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+#form_ostatus_connect.dialogbox .form_data input,
+#form_ostatus_sub.dialogbox .form_data input {
+    width: 90%;
+    padding: 4px;
+    margin: 0;
+    background-color: #fff !important;
+    border: 1px solid #888;
+}
+
+#form_ostatus_connect.dialogbox .form_data .form_guide,
+#form_ostatus_sub.dialogbox .form_data .form_guide {
+    margin-left: 0;
+    background-color: #fff !important;
+}
+
+#form_ostatus_connect.dialogbox #ostatus_nickname,
+#form_ostatus_sub.dialogbox #ostatus_nickname {
+    display: none;
+}
+
+#form_ostatus_connect.dialogbox input.submit_dialogbox,
+#form_ostatus_sub.dialogbox input.submit_dialogbox {
+    padding: 4px;
+}
+
+.entity_remote_tag {
+    background-position: 5px -257px;
+}
+
+.section .entity_remote_tag {
+    background-position: 5px -257px;
+}

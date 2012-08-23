@@ -1,0 +1,64 @@
+# Translation of StatusNet - Realtime to Interlingua (interlingua)
+# Exported from translatewiki.net
+#
+# Author: McDutchie
+# --
+# This file is distributed under the same license as the StatusNet package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: StatusNet - Realtime\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-30 11:07+0000\n"
+"PO-Revision-Date: 2012-06-30 11:09:46+0000\n"
+"Language-Team: Interlingua <https://translatewiki.net/wiki/Portal:ia>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-POT-Import-Date: 2012-01-02 10:10:45+0000\n"
+"X-Generator: MediaWiki 1.20alpha (233fc08); Translate 2012-06-21\n"
+"X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
+"X-Language-Code: ia\n"
+"X-Message-Group: #out-statusnet-plugin-realtime\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. TRANS: Client exception. Do not translate POST.
+msgid "You have to POST it."
+msgstr "Es necessari inviar lo con POST."
+
+#. TRANS: Client exception thrown when the channel key argument is missing.
+msgid "No channel key argument."
+msgstr "Il non ha un parametro pro clave de canal."
+
+#. TRANS: Client exception thrown when referring to a non-existing channel.
+msgid "No such channel."
+msgstr "Iste canal non existe."
+
+#. TRANS: Text label for realtime view "play" button, usually replaced by an icon.
+msgctxt "BUTTON"
+msgid "Play"
+msgstr "Reproducer"
+
+#. TRANS: Tooltip for realtime view "play" button.
+msgctxt "TOOLTIP"
+msgid "Play"
+msgstr "Reproducer"
+
+#. TRANS: Text label for realtime view "pause" button
+msgctxt "BUTTON"
+msgid "Pause"
+msgstr "Pausar"
+
+#. TRANS: Tooltip for realtime view "pause" button
+msgctxt "TOOLTIP"
+msgid "Pause"
+msgstr "Pausar"
+
+#. TRANS: Text label for realtime view "popup" button, usually replaced by an icon.
+msgctxt "BUTTON"
+msgid "Pop up"
+msgstr "Fenestra"
+
+#. TRANS: Tooltip for realtime view "popup" button.
+msgctxt "TOOLTIP"
+msgid "Pop up in a window"
+msgstr "Aperir le reproductor in un nove fenestra"

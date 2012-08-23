@@ -1,0 +1,71 @@
+<!-- Copyright 2008-2010 StatusNet Inc. and contributors. -->
+<!-- Document licensed under Creative Commons Attribution 3.0 Unported. See -->
+<!-- http://creativecommons.org/licenses/by/3.0/ for details. -->
+
+You can post messages to %%site.name%% using a [Jabber](http://jabber.org/) client
+on your computer, mobile phone, or other platform. ([GTalk](http://talk.google.com/),
+Google's Jabber program, will also work.) This can be a convenient way to keep
+up with your friends on %%site.name%%.
+
+If you don't already have a Jabber account, you can use GTalk or one of the other
+[public Jabber services](http://www.jabber.org/im-services). You'll probably also
+need an IM client like [Pidgin](http://www.pidgin.im/).
+
+Managing your IM settings
+-------------------------
+
+Use the [IM settings](%%action.imsettings%%) page to set your IM preferences. You can add or change your Jabber address and set the flags for Jabber update.
+
+When you add or change your address, you'll receive a message from **%%xmpp.user%%@%%xmpp.server%%** asking you to confirm the change. (You may need to
+add %%xmpp.user%%@%%xmpp.server%% to your buddy list *before* changing your IM
+settings; this is definitely true for GTalk.)
+
+Sending updates
+---------------
+
+You send updates by sending messages to %%xmpp.user%%@%%xmpp.server%%. Messages
+should be less than %%site.textlimit%% characters; longer messages will be truncated.
+
+Commands
+--------
+
+You can do some minor management of your account through Jabber. These are the
+currently-implemented commands:
+
+* **on** - turn on notifications
+* **off** - turn off notifications
+* **help** - show this help
+* **follow &lt;nickname&gt;** - subscribe to user
+* **groups** - lists the groups you have joined
+* **subscriptions** - list the people you follow
+* **subscribers** - list the people that follow you
+* **leave &lt;nickname&gt;** - unsubscribe from user
+* **d &lt;nickname&gt; &lt;text&gt;** - direct message to user
+* **get &lt;nickname&gt;** - get last notice from user
+* **whois &lt;nickname&gt;** - get profile info on user
+* **lose &lt;nickname&gt;** - force user to stop following you
+* **fav &lt;nickname&gt;** - add user's last notice as a 'fave'
+* **fav #&lt;notice_id&gt;** - add notice with the given id as a 'fave'
+* **repeat #&lt;notice_id&gt;** - repeat a notice with a given id
+* **repeat &lt;nickname&gt;** - repeat the last notice from user
+* **reply #&lt;notice_id&gt;** - reply to notice with a given id
+* **reply &lt;nickname&gt;** - reply to the last notice from user
+* **join &lt;group&gt;** - join group
+* **login** - Get a link to login to the web interface
+* **drop &lt;group&gt;** - leave group
+* **stats** - get your stats
+* **stop** - same as 'off'
+* **quit** - same as 'off'
+* **sub &lt;nickname&gt;** - same as 'follow'
+* **unsub &lt;nickname&gt;** - same as 'leave'
+* **last &lt;nickname&gt;** - same as 'get'
+* **on &lt;nickname&gt;** - not yet implemented.
+* **off &lt;nickname&gt;** - not yet implemented.
+* **nudge &lt;nickname&gt;** - remind a user to update.
+* **invite &lt;phone number&gt;** - not yet implemented.
+* **track &lt;word&gt;** - not yet implemented.
+* **untrack &lt;word&gt;** - not yet implemented.
+* **track off** - not yet implemented.
+* **untrack all** - not yet implemented.
+* **tracks** - not yet implemented.
+* **tracking** - not yet implemented.

@@ -1,0 +1,78 @@
+# Translation of StatusNet - Sitemap to French (français)
+# Exported from translatewiki.net
+#
+# Author: Peter17
+# --
+# This file is distributed under the same license as the StatusNet package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: StatusNet - Sitemap\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-30 11:07+0000\n"
+"PO-Revision-Date: 2012-06-30 11:10:01+0000\n"
+"Language-Team: French <https://translatewiki.net/wiki/Portal:fr>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-POT-Import-Date: 2011-06-05 21:51:35+0000\n"
+"X-Generator: MediaWiki 1.20alpha (233fc08); Translate 2012-06-21\n"
+"X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
+"X-Language-Code: fr\n"
+"X-Message-Group: #out-statusnet-plugin-sitemap\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. TRANS: Title for sitemap.
+msgid "Sitemap"
+msgstr "Plan du site"
+
+#. TRANS: Instructions for sitemap.
+msgid "Sitemap settings for this StatusNet site"
+msgstr "Paramètres de plan du site pour ce site StatusNet"
+
+#. TRANS: Field label.
+msgid "Google key"
+msgstr "Clé Google"
+
+#. TRANS: Title for field label.
+msgid "Google Webmaster Tools verification key."
+msgstr "Clé de vérification pour les outils Google Webmaster."
+
+#. TRANS: Field label.
+msgid "Yahoo key"
+msgstr "Clé Yahoo"
+
+#. TRANS: Title for field label.
+msgid "Yahoo! Site Explorer verification key."
+msgstr "Clé de vérification pour l’explorateur de site Yahoo!"
+
+#. TRANS: Field label.
+msgid "Bing key"
+msgstr "Clé Bing"
+
+#. TRANS: Title for field label.
+msgid "Bing Webmaster Tools verification key."
+msgstr "Clé de vérification pour les outils Bing Webmaster."
+
+#. TRANS: Submit button text to save sitemap settings.
+msgctxt "BUTTON"
+msgid "Save"
+msgstr "Sauvegarder"
+
+#. TRANS: Submit button title to save sitemap settings.
+msgid "Save sitemap settings."
+msgstr "Sauvegarder les paramètres de plan du site."
+
+#. TRANS: Menu item title/tooltip
+msgid "Sitemap configuration"
+msgstr "Configuration du plan du site"
+
+#. TRANS: Menu item for site administration
+msgctxt "MENU"
+msgid "Sitemap"
+msgstr "Plan du site"
+
+#. TRANS: Plugin description.
+msgid "This plugin allows creation of sitemaps for Bing, Yahoo! and Google."
+msgstr ""
+"Cette extension permet de créer des plans du site pour Bing, Yahoo! et "
+"Google."
