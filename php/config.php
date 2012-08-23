@@ -8,7 +8,7 @@ $config['site']['path'] = false;
 
 $config['site']['fancy'] = true;
 
-$config['db']['database'] = $_ENV['OPENSHIFT_DB_URL'].\/.$_ENV['OPENSHIFT_APP_NAME'];
+$config['db']['database'] = $_ENV['OPENSHIFT_DB_URL']."/".$_ENV['OPENSHIFT_APP_NAME'];
 #$config['db']['database'] = 'mysqli://admin:ul-ZhdKhl4uh@127.11.70.1/status';
 
 $config['db']['type'] = $_ENV['OPENSHIFT_DB_TYPE'];
