@@ -27,10 +27,6 @@ Add this upstream Status.net quickstart repo
 	git remote add upstream -m master git://github.com/jasonbrooks/statusnet-openshift-quickstart.git
 	git pull -s recursive -X theirs upstream master
 
-Commit changes
-
-	git commit -a -m "first commit"
-
 Then push the repo upstream to OpenShift
 
 	git push        
@@ -41,9 +37,10 @@ That's it, you can now checkout your application at:
 
 Default Credentials
 -------------------
-Default Admin Username :: admin
-Default Admin Password :: OpenShiftAdmin
-
+<table>
+<tr><td>Default Admin Username</td><td>admin</td></tr>
+<tr><td>Default Admin Password</td><td>OpenShiftAdmin</td></tr>
+</table>
 
 To give your new planet site a web address of its own, add your desired alias:
 
