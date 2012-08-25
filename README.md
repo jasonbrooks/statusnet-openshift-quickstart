@@ -18,7 +18,7 @@ Create a PHP application
 
 	rhc app create -a status -t php-5.3
 
-Add MySQL support to your application
+Add MySQL support to your application, and write down the credentials and host information.
     
 	rhc app cartridge add -a status -c mysql-5.1
     
