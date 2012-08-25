@@ -35,7 +35,6 @@ Head to your application at:
 
 	http://status-$yourdomain.rhcloud.com
 
-<<<<<<< HEAD
 Default Credentials
 -------------------
 <table>
@@ -57,9 +56,6 @@ What's more, the DB values you entered in the installer should be replaced with 
 That ought to do it. This step should be handled more elegantly, but I haven't figured it out yet. Status.net wants to build the config.php file itself, and it won't accept the openshift env variables in the web form (they're ungainly to enter there, anyhow). However, letting Status.net do it's thing through the web installer script is what's required to get the app to create the first user on the account and to build its db tables.
 
 If you can help me implement the setup through openshift action hook scripts, please do!
-
-Also, I should modify this setup to ensure that any uploaded files are placed on the correct, persistent openshift data directory. Another to do.
->>>>>>> e6946ac2326194977ed202738247bd7b8e4a7c7e
 
 To give your new planet site a web address of its own, add your desired alias:
 
