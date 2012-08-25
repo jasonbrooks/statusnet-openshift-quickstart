@@ -40,13 +40,19 @@ then
     exit 5
 fi
 
-# Confirm database exists, if not create it
-## TODO: Add Check for DB and to create empty DB
 # Confirm configuration exists, if not create it
 if [ -f $OPENSHIFT_DATA_DIR/$OPENSHIFT_APP_NAME-config.php ]
 then
     echo "Configuration Exists.  Restoring."
-    cp $OPENSHIFT_DATA_DIR/$OPENSHIFT_APP_NAME-config.php $OPENSHIFT_REPO_DIR/php/config.php
+    ln -s $OPENSHIFT_DATA_DIR/$OPENSHIFT_APP_NAME-config.php $OPENSHIFT_REPO_DIR/php/config.php
+
+    #Restore Persisted Avatar files
+    rm -rf $OPENSHIFT_REPO_DIR/php/avatar
+    ln -s $OPENSHIFT_DATA_DIR/avatar $OPENSHIFT_REPO_DIR/php/avatar
+
+    #Restore Persisted Attachment files
+    rm -rf $OPENSHIFT_REPO_DIR/php/file
+    ln -s $OPENSHIFT_DATA_DIR/file $OPENSHIFT_REPO_DIR/php/file
 else
     echo "Creating StatusNet Application at $OPENSHIFT_APP_DNS"
     pushd $OPENSHIFT_REPO_DIR/php/scripts/
@@ -66,8 +72,18 @@ else
         --admin-email='your_email@domain.tld'  \
         --admin-updates='no'
 
-    #Need to persist our config.php between commits
-    cp $OPENSHIFT_REPO_DIR/php/config.php $OPENSHIFT_DATA_DIR/$OPENSHIFT_APP_NAME-config.php
+    #Persist Configurations
+    mv $OPENSHIFT_REPO_DIR/php/config.php $OPENSHIFT_DATA_DIR/$OPENSHIFT_APP_NAME-config.php
+    ln -s $OPENSHIFT_DATA_DIR/$OPENSHIFT_APP_NAME-config.php $OPENSHIFT_REPO_DIR/php/config.php
+
+    #Persist Avatar files
+    mv $OPENSHIFT_REPO_DIR/php/avatar $OPENSHIFT_DATA_DIR
+    ln -s $OPENSHIFT_DATA_DIR/avatar $OPENSHIFT_REPO_DIR/php/avatar
+
+    #Persist Attachment files
+    mv $OPENSHIFT_REPO_DIR/php/file $OPENSHIFT_DATA_DIR
+    ln -s $OPENSHIFT_DATA_DIR/file $OPENSHIFT_REPO_DIR/php/file
+
     popd
 
     echo "=================================================="

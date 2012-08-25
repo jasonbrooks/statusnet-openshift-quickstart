@@ -42,9 +42,6 @@ Default Credentials
 <tr><td>Default Admin Password</td><td>OpenShiftAdmin</td></tr>
 </table>
 
-
-Also, I should modify this setup to ensure that any uploaded files are placed on the correct, persistent openshift data directory. Another to do.
-
 To give your new planet site a web address of its own, add your desired alias:
 
 	rhc app add-alias -a status --alias "$whatever.$mydomain.com"
