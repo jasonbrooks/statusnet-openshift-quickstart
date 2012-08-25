@@ -3,3 +3,95 @@
 # build hook has been run but before the application has been started back
 # up again.  This script gets executed directly, so it could be python, php,
 # ruby, etc.
+
+set -e
+
+if [ -z "$OPENSHIFT_DB_HOST" ]
+then
+    echo 1>&2
+    echo "Could not find mysql database.  Please run:" 1>&2
+    echo "rhc app cartridge add -a $OPENSHIFT_APP_NAME -c mysql-5.1" 1>&2
+    echo "then make a sample commit (add whitespace somewhere) and re-push" 1>&2
+    echo 1>&2
+fi
+
+RETRY=60
+while [ $RETRY -gt 0 ] ; do
+    #reload env variables
+    for env_var in  $OPENSHIFT_HOMEDIR/.env/*
+    do 
+       . $env_var
+    done
+
+    #check for db
+    if [ -n "$OPENSHIFT_DB_HOST" ]
+    then
+       echo "Database server found at $OPENSHIFT_DB_HOST. initializing..."
+       sleep 5
+       break
+    fi
+    
+    sleep 1
+    RETRY=$(( $RETRY - 1 ))
+done
+
+if [ -z "$OPENSHIFT_DB_HOST" ]
+then 
+    exit 5
+fi
+
+# Confirm configuration exists, if not create it
+if [ -f $OPENSHIFT_DATA_DIR/$OPENSHIFT_APP_NAME-config.php ]
+then
+    echo "Configuration Exists.  Restoring."
+    ln -s $OPENSHIFT_DATA_DIR/$OPENSHIFT_APP_NAME-config.php $OPENSHIFT_REPO_DIR/php/config.php
+
+    #Restore Persisted Avatar files
+    rm -rf $OPENSHIFT_REPO_DIR/php/avatar
+    ln -s $OPENSHIFT_DATA_DIR/avatar $OPENSHIFT_REPO_DIR/php/avatar
+
+    #Restore Persisted Attachment files
+    rm -rf $OPENSHIFT_REPO_DIR/php/file
+    ln -s $OPENSHIFT_DATA_DIR/file $OPENSHIFT_REPO_DIR/php/file
+else
+    echo "Creating StatusNet Application at $OPENSHIFT_APP_DNS"
+    pushd $OPENSHIFT_REPO_DIR/php/scripts/
+
+   php install_cli.php \
+        -s"$OPENSHIFT_APP_DNS" \
+        --server="$OPENSHIFT_APP_DNS" \
+        --sitename="StatusNET on Openshift"  \
+        --fancy='yes'  \
+        --dbtype='mysql'  \
+        --host="$OPENSHIFT_DB_HOST"  \
+        --database="$OPENSHIFT_APP_NAME"  \
+        --username="$OPENSHIFT_DB_USERNAME"  \
+        --password="$OPENSHIFT_DB_PASSWORD"  \
+        --admin-nick='admin'  \
+        --admin-pass='OpenShiftAdmin'  \
+        --admin-email='your_email@domain.tld'  \
+        --admin-updates='no'
+
+    #Persist Configurations
+    mv $OPENSHIFT_REPO_DIR/php/config.php $OPENSHIFT_DATA_DIR/$OPENSHIFT_APP_NAME-config.php
+    ln -s $OPENSHIFT_DATA_DIR/$OPENSHIFT_APP_NAME-config.php $OPENSHIFT_REPO_DIR/php/config.php
+
+    #Persist Avatar files
+    mv $OPENSHIFT_REPO_DIR/php/avatar $OPENSHIFT_DATA_DIR
+    ln -s $OPENSHIFT_DATA_DIR/avatar $OPENSHIFT_REPO_DIR/php/avatar
+
+    #Persist Attachment files
+    mv $OPENSHIFT_REPO_DIR/php/file $OPENSHIFT_DATA_DIR
+    ln -s $OPENSHIFT_DATA_DIR/file $OPENSHIFT_REPO_DIR/php/file
+
+    popd
+
+    echo "=================================================="
+    echo "  StatusNet-Admin login: admin"
+    echo "  StatusNet-Admin password: OpenShiftAdmin"
+    echo "  Don't forget to change your StatusNet admin password!"
+    echo "=================================================="
+fi
+
+$OPENSHIFT_GEAR_CTL_SCRIPT stop
+$OPENSHIFT_GEAR_CTL_SCRIPT start

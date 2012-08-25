@@ -1,5 +1,3 @@
-JUST BORN, WORKING OUT SOME KINKS
-
 Status.net on OpenShift
 =========================
 
@@ -40,6 +38,12 @@ Then push the repo upstream to OpenShift
 That's it, you can now checkout your application at:
 
 	http://status-$yourdomain.rhcloud.com
+
+Default Credentials
+-------------------
+Default Admin Username :: admin
+Default Admin Password :: OpenShiftAdmin
+
 
 To give your new planet site a web address of its own, add your desired alias:
 
