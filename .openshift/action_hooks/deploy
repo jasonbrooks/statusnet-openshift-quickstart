@@ -73,7 +73,8 @@ else
         --admin-updates='no'
 
     #Persist Configurations
-    mv $OPENSHIFT_REPO_DIR/php/config.php $OPENSHIFT_DATA_DIR/$OPENSHIFT_APP_NAME-config.php
+    rm $OPENSHIFT_REPO_DIR/php/config.php
+    mv $OPENSHIFT_REPO_DIR/php/config.tmp $OPENSHIFT_DATA_DIR/$OPENSHIFT_APP_NAME-config.php
     ln -s $OPENSHIFT_DATA_DIR/$OPENSHIFT_APP_NAME-config.php $OPENSHIFT_REPO_DIR/php/config.php
 
     #Persist Avatar files
