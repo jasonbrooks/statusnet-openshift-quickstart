@@ -43,28 +43,31 @@ fi
 # Confirm database exists, if not create it
 ## TODO: Add Check for DB and to create empty DB
 # Confirm configuration exists, if not create it
-if [ -f ~/app-root/runtime/repo/php/config.php ]
+if [ -f $OPENSHIFT_DATA_DIR/$OPENSHIFT_APP_NAME-config.php ]
 then
-    echo "Configuration Exists.  Skipping"
+    echo "Configuration Exists.  Restoring."
+    cp $OPENSHIFT_DATA_DIR/$OPENSHIFT_APP_NAME-config.php $OPENSHIFT_REPO_DIR/php/config.php
 else
     echo "Creating StatusNet Application at $OPENSHIFT_APP_DNS"
-    pushd ~/app-root/runtime/repo/php/scripts/
-    
+    pushd $OPENSHIFT_REPO_DIR/php/scripts/
+
    php install_cli.php \
-	-s"$OPENSHIFT_APP_DNS" \
-	--server="$OPENSHIFT_APP_DNS" \
-	--sitename="StatusNET on Openshift"  \
-	--fancy='yes'  \
-	--dbtype='mysql'  \
-	--host="$OPENSHIFT_DB_HOST"  \
-	--database="$OPENSHIFT_APP_NAME"  \
-	--username="$OPENSHIFT_DB_USERNAME"  \
-	--password="$OPENSHIFT_DB_PASSWORD"  \
-	--admin-nick='admin'  \
-	--admin-pass='OpenShiftAdmin'  \
-	--admin-email='your_email@domain.tld'  \
-	--admin-updates='no'
-   
+        -s"$OPENSHIFT_APP_DNS" \
+        --server="$OPENSHIFT_APP_DNS" \
+        --sitename="StatusNET on Openshift"  \
+        --fancy='yes'  \
+        --dbtype='mysql'  \
+        --host="$OPENSHIFT_DB_HOST"  \
+        --database="$OPENSHIFT_APP_NAME"  \
+        --username="$OPENSHIFT_DB_USERNAME"  \
+        --password="$OPENSHIFT_DB_PASSWORD"  \
+        --admin-nick='admin'  \
+        --admin-pass='OpenShiftAdmin'  \
+        --admin-email='your_email@domain.tld'  \
+        --admin-updates='no'
+
+    #Need to persist our config.php between commits
+    cp $OPENSHIFT_REPO_DIR/php/config.php $OPENSHIFT_DATA_DIR/$OPENSHIFT_APP_NAME-config.php
     popd
 
     echo "=================================================="
