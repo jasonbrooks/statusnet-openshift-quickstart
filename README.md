@@ -16,7 +16,7 @@ Create a PHP application
 
 	rhc app create -a status -t php-5.3
 
-Add MySQL support to your application, and write down the credentials and host information.
+Add MySQL support to your application
     
 	rhc app cartridge add -a status -c mysql-5.1
     
@@ -27,21 +27,23 @@ Add this upstream Status.net quickstart repo
 	git remote add upstream -m master git://github.com/jasonbrooks/statusnet-openshift-quickstart.git
 	git pull -s recursive -X theirs upstream master
 
-Push the repo upstream to OpenShift
+Commit changes
+
+	git commit -a -m "first commit"
+
+Then push the repo upstream to OpenShift
 
 	git push        
 
-Head to your application at:
+That's it, you can now checkout your application at:
 
 	http://status-$yourdomain.rhcloud.com
 
 Default Credentials
 -------------------
-<table>
-<tr><td>Default Admin Username</td><td>admin</td></tr>
-<tr><td>Default Admin Password</td><td>OpenShiftAdmin</td></tr>
-</table>
-=======
+Default Admin Username :: admin
+Default Admin Password :: OpenShiftAdmin
+
 
 To give your new planet site a web address of its own, add your desired alias:
 
