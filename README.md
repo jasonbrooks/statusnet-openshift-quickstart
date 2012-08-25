@@ -42,20 +42,6 @@ Default Credentials
 <tr><td>Default Admin Password</td><td>OpenShiftAdmin</td></tr>
 </table>
 =======
-You'll find your new Status.net instance in need of configuration. Click the link to the installer and provide the requested information, including the DB info you wrote down when you added the mysql cartridge to your app. When that process is finished, you're all set up, but your config file lives only on the openshift service, not in your repo. 
-
-What's more, the DB values you entered in the installer should be replaced with openshift env variables to ensure your app stays running if/when it moves between machines on the openshift service. There's a config file with the correct values prepopulated, we just have to change its name and push it up to openshift:
-
-	cd status
-	mv php/config.bak php/config.php
-	git rm php/config.bak
-	git add php/config.php
-	git commit -a -m "rename config file"
-	git push
-	
-That ought to do it. This step should be handled more elegantly, but I haven't figured it out yet. Status.net wants to build the config.php file itself, and it won't accept the openshift env variables in the web form (they're ungainly to enter there, anyhow). However, letting Status.net do it's thing through the web installer script is what's required to get the app to create the first user on the account and to build its db tables.
-
-If you can help me implement the setup through openshift action hook scripts, please do!
 
 To give your new planet site a web address of its own, add your desired alias:
 
